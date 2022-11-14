@@ -1,6 +1,6 @@
 # 我的DocSify
-> 我要开始装逼了
+> 打开docsify
 
 
 [Halo](https://blog.hnpi.club)
-[更多](#introduction)
+[滑动加载更多](#introduction)

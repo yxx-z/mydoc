@@ -22,6 +22,27 @@
 <div id="app"></div>
 <script>
   window.$docsify = {
+
+    name: 'Tutorial For SQL',
+    loadSidebar: true,
+    // maxLevel: 6,
+    repo: 'https://gitea.hnpi.club/base/base-springboot',
+    subMaxLevel: 1,
+    auto2top: true,
+
+    pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+        crossChapter: true,
+        crossChapterText: true,
+    },
+
+    count:{
+      countable:true,
+      fontsize:'0.9em',
+      color:'rgb(90,90,90)',
+      language:'chinese'
+    }
     search: 'auto', // 默认值
 
     search : [
@@ -84,8 +105,8 @@
 <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
 <script>
   const gitalk = new Gitalk({
-    clientID: 'Github Application Client ID',
-    clientSecret: 'Github Application Client Secret',
+    clientID: '76b64b09b0afff8dbb62',
+    clientSecret: 'c997d45cb9f220a0fce3fe0cb18edc3f099d0d8d',
     repo: 'Github repo',
     owner: 'Github repo owner',
     admin: ['Github repo collaborators, only these guys can initialize github issues'],
@@ -93,6 +114,12 @@
     distractionFreeMode: false
   })
 </script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+
 </body>
 
 </html>
